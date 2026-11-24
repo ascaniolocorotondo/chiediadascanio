@@ -50,4 +50,4 @@ Valori possibili per `stato`: `in-valutazione`, `in-consiglio`, `approvata`, `re
 
 Attenzione alle virgole tra una proposta e l'altra: se il file ha un errore, la sezione proposte non si carica. Puoi controllarlo su https://jsonlint.com.
 
-Le tre proposte già presenti sono **esempi**: sostituiscile con quelle vere.
+All'inizio il file contiene solo `[]` (nessuna proposta). Più proposte vanno separate da una virgola dentro le parentesi quadre.

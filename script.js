@@ -59,7 +59,9 @@ function mostraProposte(filtro = "tutte") {
   const lista = filtro === "tutte" ? proposte : proposte.filter(p => p.stato === filtro);
 
   if (!lista.length) {
-    box.innerHTML = `<p class="muted">Nessuna proposta in questa categoria per ora.</p>`;
+    box.innerHTML = proposte.length
+      ? `<p class="muted">Nessuna proposta in questa categoria per ora.</p>`
+      : `<p class="muted">Ancora nessuna proposta selezionata. <a href="#proponi">Scrivi la prima!</a></p>`;
     return;
   }
 
