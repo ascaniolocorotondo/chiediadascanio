@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chiedi ad Ascanio · Proposte degli studenti</title>
+  <meta name="description" content="Scrivi la tua proposta per la scuola: il rappresentante d'istituto porta le migliori al Consiglio d'Istituto.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="logo">💡 Chiedi ad Ascanio</a>
+    <nav>
+      <a href="#come-funziona">Come funziona</a>
+      <a href="#proponi">Proponi</a>
+      <a href="#proposte">Proposte</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Rappresentanza d'Istituto</p>
+      <h1>Hai un'idea per migliorare la scuola?<br><span>Scrivila qui.</span></h1>
+      <p class="lead">Ogni proposta viene letta. Le migliori le porto io al Consiglio d'Istituto e qui trovi sempre a che punto sono.</p>
+      <div class="hero-actions">
+        <a href="#proponi" class="btn btn-primary">Scrivi una proposta</a>
+        <a href="#proposte" class="btn btn-ghost">Guarda le proposte</a>
+      </div>
+      <div class="stats" id="stats" aria-live="polite"></div>
+    </section>
+
+    <section id="come-funziona" class="section">
+      <h2>Come funziona</h2>
+      <ol class="steps">
+        <li>
+          <span class="step-num">1</span>
+          <h3>Scrivi</h3>
+          <p>Compila il modulo: cosa vorresti cambiare e perché. Puoi anche restare anonimo.</p>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <h3>Selezione</h3>
+          <p>Leggo tutte le proposte e scelgo quelle più utili e realizzabili, raggruppando quelle simili.</p>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <h3>Consiglio d'Istituto</h3>
+          <p>Le porto in Consiglio e aggiorno qui lo stato: in discussione, approvata o non approvata.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="proponi" class="section">
+      <h2>Scrivi la tua proposta</h2>
+      <p class="section-lead">Sii concreto: cosa, dove, e perché farebbe bene a tutti. Proposte offensive o non pertinenti vengono scartate.</p>
+      <div class="form-card" id="form-container">
+        <!-- Il modulo viene inserito da script.js (vedi CONFIG.googleFormUrl) -->
+      </div>
+    </section>
+
+    <section id="proposte" class="section">
+      <h2>Proposte portate avanti</h2>
+      <p class="section-lead">Le proposte selezionate e il loro stato aggiornato.</p>
+
+      <div class="filters" role="tablist" aria-label="Filtra per stato">
+        <button class="chip active" data-filter="tutte">Tutte</button>
+        <button class="chip" data-filter="in-valutazione">In valutazione</button>
+        <button class="chip" data-filter="in-consiglio">In Consiglio</button>
+        <button class="chip" data-filter="approvata">Approvate</button>
+        <button class="chip" data-filter="realizzata">Realizzate</button>
+        <button class="chip" data-filter="non-approvata">Non approvate</button>
+      </div>
+
+      <div class="cards" id="cards">
+        <p class="muted">Caricamento proposte…</p>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <h2>Domande frequenti</h2>
+      <details>
+        <summary>Devo mettere il mio nome?</summary>
+        <p>No, il nome è facoltativo. Se lo lasci posso ricontattarti per chiederti dettagli, ma non verrà mai pubblicato sul sito senza il tuo permesso.</p>
+      </details>
+      <details>
+        <summary>Come vengono scelte le proposte?</summary>
+        <p>Guardo quanto sono utili per molti studenti, se sono realizzabili e quante persone hanno proposto la stessa cosa. Le proposte simili vengono unite in una sola.</p>
+      </details>
+      <details>
+        <summary>Quanto ci vuole per avere una risposta?</summary>
+        <p>Il Consiglio d'Istituto si riunisce periodicamente: lo stato di ogni proposta viene aggiornato qui dopo ogni riunione.</p>
+      </details>
+      <details>
+        <summary>Posso proporre qualsiasi cosa?</summary>
+        <p>Qualsiasi idea che riguardi la vita scolastica: spazi, attività, orari, eventi, servizi. Non vengono considerati insulti, segnalazioni su singole persone o contenuti inappropriati.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Fatto da Ascanio, rappresentante d'istituto · Sito non ufficiale della scuola</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
