@@ -4,7 +4,7 @@
 const CONFIG = {
   // Incolla qui il link del tuo Google Form (quello che finisce con /viewform).
   // Esempio: "https://docs.google.com/forms/d/e/1FAIpQLSc.../viewform"
-  googleFormUrl: "",
+  googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfsGX8KaQsd8u3uDFRaU8moHm8LiGGEm05Zo_8dKkcNcSiILg/viewform",
 };
 // ============================================================
 
