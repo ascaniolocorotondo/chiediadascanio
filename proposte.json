@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "titolo": "Ore di laboratorio obbligatorie",
+    "descrizione": "Introdurre due ore obbligatorie di laboratorio, oppure lavori e attività pratiche, per staccare un po' dallo studio.",
+    "categoria": "Didattica e orari",
+    "stato": "in-valutazione",
+    "data": "2026-11-28"
+  },
+  {
+    "titolo": "Aule più grandi",
+    "descrizione": "Spostare in un'aula più grande le classi che ne hanno una troppo stretta, anche durante le verifiche.",
+    "categoria": "Spazi e strutture",
+    "stato": "in-valutazione",
+    "data": "2026-11-28"
+  },
+  {
+    "titolo": "Più sport e tornei a scuola",
+    "descrizione": "Prendere più sul serio le attività sportive (calcio, basket, ecc.) e organizzare manifestazioni e tornei dentro la nostra scuola.",
+    "categoria": "Eventi e attività",
+    "stato": "in-valutazione",
+    "data": "2026-11-28"
+  }
+]
